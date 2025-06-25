@@ -68,7 +68,7 @@ def main():
     # Cleanup
     for chunk in chunk_files:
         os.remove(chunk)
-    os.rmdir(TEMP_DIR)
+    os.rmdir(TEMP_DIR) 
 
 if __name__ == "__main__":
     main()
