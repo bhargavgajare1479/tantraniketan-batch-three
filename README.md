@@ -36,7 +36,9 @@ git commit -m "your-commit-message"
 ```
 
 ## Add remote origin (link your GitHub repository with your local working directory)
+```bash
 git remote add origin your-github-repository-link
+```
 
 ## Create a branch
 ```bash
